@@ -22,8 +22,6 @@ function getCommonCharacterCount(s1, s2) {
   const s1Map = getMapFromString(s1)
   const s2Map = getMapFromString(s2)
 
-  // { a: 2, b: 1, c: 2 } 'adcaa'
-  // { a: 3, c: 1, d: 1 }
   let count = 0
 
   for (const key in s1Map) {
